@@ -17,7 +17,7 @@
       adapter: 'sails-mongo',
       url: process.env.MONGOLAB_URI
     }
-  }
+  },
 
   models: {
     connection: 'prodMongoServer'
