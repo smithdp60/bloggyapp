@@ -10,7 +10,19 @@
  *
  */
 
-module.exports = {
+ module.exports = {
+
+   connections: {
+    prodMongoServer: {
+      adapter: 'sails-mongo',
+      url: process.env.MONGOLAB_URI
+    },
+  }
+
+  models: {
+    connection: 'prodMongoServer'
+  }
+
 
   /***************************************************************************
    * Set the default database connection for models in the production        *
