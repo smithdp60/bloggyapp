@@ -1,0 +1,11 @@
+#loader {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  color: white;
+  top: 60%;
+  left: 40%;
+  background-color: blue;
+  text-align: center;
+}
